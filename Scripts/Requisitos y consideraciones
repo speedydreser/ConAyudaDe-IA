@@ -1,0 +1,17 @@
+Para los scrpits de Linux y Windows, se debe considerar lo siguientes:
+
+Linux.
+  Dar privilegios para ejectuar mediante el siguiente comando:
+    "chmod +x nombredelscript.sh"
+    
+  La ejecución de este script sí o sí se debe realizar con el comando "source"; de esta manera o forma las variables de entorno serán afectadas al sistema en sí.
+    source nombredelscript.sh
+    
+    Nota: Tambien peude usarse o ejecutarse así: ". nombredelscript.sh"
+
+Windows.
+  El Script debe estar en formato .PS1
+  Ejecutar el script desde la misma ruta donde se encuentra.
+  Ejecuta el script usando el comando .\script.ps1.
+  
+  Nota: Recuerda que al ejecutar scripts en PowerShell, es posible que necesites habilitar la ejecución de scripts mediante el comando Set-ExecutionPolicy. Puedes usar Set-ExecutionPolicy RemoteSigned para permitir la ejecución de scripts
