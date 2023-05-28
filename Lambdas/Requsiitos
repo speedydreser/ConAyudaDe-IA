@@ -1,1 +1,6 @@
+Siempre es necesario validar que el lambda tenga los privilegios necesarios para ejecutarse, de acorde a los servicios con los que este interactuará.
 
+Por ejemplo:
+  Si listará las instancias, es necesario privilegios de ejecucion de lambda y también para listar los EC2.
+
+Agregar el tiempo necesario a los lambda para que su ejecución.
